@@ -3,6 +3,10 @@ import telebot
 import requests
 import pandas
 
+
+
+
+##################################FEI TUKE Aktuality##############################################
 #read csv file to dataframe
 aktuality_last_df = pandas.read_csv('aktuality_last.csv')
 
