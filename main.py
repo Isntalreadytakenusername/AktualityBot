@@ -14,6 +14,7 @@ from TelegramBot import TelegramBot
 os.chdir('aktuality_scrapers')
 
 
-news_checkers_list = [NewsChecker("fei", "aktuality.csv", "API_KEY", "@fei_tuke_aktuality"), NewsChecker("mais", "mais.csv", "API_KEY", "@fei_tuke_aktuality", True, False, True, False, False)]
+news_checkers_list = [NewsChecker("fei", "aktuality.csv", "API_KEY", "@fei_tuke_aktuality"), NewsChecker("mais", "mais.csv", "API_KEY", "@fei_tuke_aktuality", True, False, True, False, False),
+                       NewsChecker("tuke_oznamy", "tuke_oznamy", "API_KEY", "@fei_tuke_aktuality", True, True, True, False, True)]
 process = CheckNewsProcess(news_checkers_list)
 process.run()
