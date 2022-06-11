@@ -1,13 +1,9 @@
 import os
-import pandas as pd
-import time
 
 from CheckNewsProcess import CheckNewsProcess
 from NewsCheckers import NewsChecker
-from TelegramBot import TelegramBot
 
 
-##############################
 
 #we need to run the scraper from here and
 # all changing files will be here
