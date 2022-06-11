@@ -4,13 +4,7 @@ import time
 
 from CheckNewsProcess import CheckNewsProcess
 from NewsCheckers import NewsChecker
-
-
-
-
-
-
-
+from TelegramBot import TelegramBot
 
 
 ##############################
@@ -20,6 +14,6 @@ from NewsCheckers import NewsChecker
 os.chdir('aktuality_scrapers')
 
 
-news_checkers_list = [NewsChecker("fei", "aktuality.csv", "telegram_bot_fei_aktuality.py"), NewsChecker("mais", "mais.csv", "telegram_bot_mais.py")]
+news_checkers_list = [NewsChecker("fei", "aktuality.csv", "API_KEY", "@fei_tuke_aktuality"), NewsChecker("mais", "mais.csv", "API_KEY", "@fei_tuke_aktuality", True, False, True, False, False)]
 process = CheckNewsProcess(news_checkers_list)
 process.run()

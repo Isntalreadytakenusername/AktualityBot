@@ -14,6 +14,6 @@ class FeiSpider(scrapy.Spider):
         text_of_post = last_post.xpath("((//div[contains(@id, 'article')])[1]//div[contains(@class , 'articleContent')]/div[@class = 'description']/p[contains(@style, 'text-align')]//text())").extract()
         # join all strings in text_of_post list 
         text_of_post = ' '.join(text_of_post)
-        yield {'title': post_title, 'date': date_of_post, 'image': link_to_post_image, 'text': text_of_post}
+        yield {'title': post_title, 'date': date_of_post, 'image': link_to_post_image, 'text': text_of_post, 'link': 'https://www.fei.tuke.sk/sk/studium/aktuality'}
 
 

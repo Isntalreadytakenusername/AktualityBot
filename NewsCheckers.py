@@ -2,19 +2,27 @@ import os
 import pandas as pd
 import time
 
+from TelegramBot import TelegramBot
+
 
 class NewsChecker:
     '''
     To use this object run check_for_new_posts and check_whether_the_post_is_new
     '''
-    def __init__(self, scraper_name, scraper_output_file, bot_script_name):
+    def __init__(self, scraper_name, scraper_output_file, environment_variable_with_api_key_for_bot, chat_id, is_text = True, is_title = True, is_date = True, is_image = True, is_link = True):
         self.scraper_name = scraper_name
         self.scraper_output_file = scraper_output_file
         self.last_scraper_output_file = self.scraper_output_file[:-4]+"_last.csv"
-        self.bot_script_name = bot_script_name
         
         self.scraper_output_df = None
         self.previous_output_df = None
+        
+        
+        #create telegram bot
+        self.telegram_bot = TelegramBot(self.last_scraper_output_file, environment_variable_with_api_key_for_bot, chat_id, is_text, is_title, is_date, is_image, is_link)
+        self.telegram_bot.prepare_bot("API_KEY")
+
+
 
     def check_for_new_posts(self):
         # check if the file already exists, delete
@@ -47,8 +55,8 @@ class NewsChecker:
                 print("New post found")
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-                os.system(f"python ../{self.bot_script_name}")
+                self.telegram_bot.send_bots_message()
         else:
             self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-            os.system(f"python ../{self.bot_script_name}")
+            self.telegram_bot.send_bots_message()
         # check whether we have last results
