@@ -1,0 +1,1931 @@
+all
+"
+,
+	,
+	,
+	,
+		,var djConfig={""baseUrl"":""/wps/portal_dojo/v1.9/dojo/"",""locale"":""en"",""isDebug"":false,""debugAtAllCosts"":false,""parseOnLoad"":false,""afterOnLoad"":false,""has"":{""dojo-bidi"":true},""modulePaths"":{""com"":""/wps/themeModules/js/com"",""ibm"":""/wps/themeModules/js/ibm"",""pagebuilder"":""/wps/themeModules/modules/pagebuilder/js"",""portalclient"":""/wps/themeModules/modules/portalclient/js"",""asa"":""/wps/themeModules/modules/asa/js"",""contentmapping"":""/wps/themeModules/modules/contentmapping/js"",""federation"":""/wps/themeModules/modules/federation/js""}};djConfig.locale=djConfig.locale.replace(/_/g, ""-"").replace(/iw/, ""he"").toLowerCase();(function(){if (typeof(wpModules) == 'undefined') wpModules = {}; if (typeof(wpModules.state) == 'undefined') wpModules.state = {}; if (typeof(wpModules.state.page) == 'undefined') wpModules.state.page = {};wpModules.state.page._initial=[{""nsuri"":""http://www.ibm.com/xmlns/prod/websphere/portal/publicparams"",""name"":""selection"",""value"":[""Z6_LA542J40MGCHF0APUQQ5AB0OG2""]},{""nsuri"":""http://www.ibm.com/xmlns/prod/websphere/portal/publicparams"",""name"":""labelMappings"",""value"":[""Z6_000000000000000000000000A0"",""Z6_LA542J40MGCHF0APUQQ5AB0OG2""]},{""nsuri"":""http://www.ibm.com/xmlns/prod/websphere/portal/publicparams"",""name"":""expansions"",""value"":[""Z6_000000000000000000000000A0"",""Z6_414A1440MG7RD0A9QU2S8V1083"",""Z6_LA542J40MO8620APITND4MPN50""]}];wpModules.state.page.selectionPath=['Z6_000000000000000000000000A0','Z6_LA542J40MO8620APITND4MPN50','Z6_414A1440MG7RD0A9QU2S8V1083','Z6_LA542J40MGCHF0APUQQ5AB0OG2'];wpModules.state.page.supportsEditMode=true;wpModules.state.page.supportsToolbar=true;wpModules.state.page.path='/wps/portal';wpModules.state.page.protectedPath='/wps/myportal';wpModules.state.page.publicPath='/wps/portal';})();,(function() {
+	var element = document.getElementById(""Jq1yQ35Yk86"");
+	if (element) {
+		wpModules.theme.WindowUtils.baseURL.resolve(element.href);
+	}
+}());,
+,Notices,
+,
+ 
+
+	,
+
+	,
+
+,
+    window.cookieconsent_options = {
+    	""message"":""This website uses cookies to ensure you get the best experience."",
+    	""dismiss"":""Got it!"",
+    	""learnMore"":null,
+    	""link"":null,
+    	""theme"":""dark-floating""}; 
+,
+,
+,
+,
+,
+	,
+	,
+		,
+			,
+
+				,
+					 
+,
+	
+	,
+	,
+		,Technical University,of Košice,
+	,
+,
+
+,
+				,
+				
+	,
+	    ,
+	    	
+            ,
+                
+				,Applicants,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,Applicants,
+    
+    
+      ,TUKE provides a wide range of educational opportunities at all three levels of study in Slovak and English. Internationalization of education offers a broad variety of possibilities for both Slovak and foreign students in EU countries.,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,Study Programs at TUKE,
+									
+										,Study at TUKE,
+									
+										,Admissions,
+									
+										,Application Deadlines,
+									
+										,E-Application,
+									
+										,International Applicants and Students,
+									
+										,Open Day,
+									
+										,Study Departments,
+									
+										,Tuition and Fees,
+									
+										,Recognition of Diplomas,
+									
+										,Campus Map,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+            ,
+                
+				,University,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,University,
+    
+    
+      ,Technical University of Košice is a public college covering a wide range of educational needs not just for the East Slovak region but in many fields it is the only science, research and education center not only in Slovakia but also in the Central European area.,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,About Us,
+									
+										,TUKE Organizational Structure,
+									
+										,University Bodies,
+									
+										,Clubs and Associations,
+									
+										,University Symbols,
+									
+										,Division of Innovations and Technology Transfer,
+									
+										,Division of Education,
+									
+										,Division of Science, Research and Doctoral Study,
+									
+										,Division of International Relations and Mobilities,
+									
+										,Gender equality,
+									
+										,Free Access to Information,
+									
+										,University Legislation,
+									
+										,Annual Reports and Documents,
+									
+										,Division of Quality Management,
+									
+										,Gallery,
+									
+										,Notices,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+            ,
+                
+				,Faculties,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,Faculties,
+    
+    
+      ,TUKE has currently nine faculties specialized in technology and even art.,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,Faculty of Mining, Ecology, Process Control and Geotechnologies,
+									
+										,Faculty of Materials, Metallurgy and Recycling,
+									
+										,Faculty of Mechanical Engineering,
+									
+										,Faculty of Electrical Engineering and Informatics,
+									
+										,Faculty of Civil Engineering,
+									
+										,Faculty of economics,
+									
+										,Faculty of Manufacturing Technologies,
+									
+										,Faculty of Arts,
+									
+										,Faculty of Aeronautics,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+            ,
+                
+				,Institutes,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,Institutes,
+    
+    
+      ,Schoolwide institutes are an inseperable part of the University providing educational, techno-economic, information and communications, canteen and sport activities.,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,University Library,
+									
+										,Institute of Languages, Social Sciences and Academic Sports TUKE,
+									
+										,Institute of Computer Technology,
+									
+										,Student Dormitories and Canteens,
+									
+										,Access Centre,
+									
+										,Centre for Social and Psychological Support,
+									
+										,UVP Technicom,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+            ,
+                
+				,Studies,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,Studies,
+    
+    
+      ,TUKE offers, organizes and provides higher education within the framework of accredited study programs of the first (bachelor study), second (engineer and master study) and third level (postgraduate study).,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,Student News,
+									
+										,MAIS Information System,
+									
+										,Academic Calendar,
+									
+										,Study Related Legislation,
+									
+										,Student ID Card,
+									
+										,Student Surveys,
+									
+										,Vice-Deans for Education,
+									
+										,Erasmus+,
+									
+										, iCUBE,
+									
+										,Access Centre,
+									
+										,Centre for Social and Psychological Support,
+									
+										,University of the Third Age,
+									
+										,Final thesis portal,
+									
+										,University Pastoral Centre,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+            ,
+                
+				,Research,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,Research,
+    
+    
+      ,The research field activity is one of the key activities at TUKE along with education. In the field of science, technology, art and culture TUKE carries out basic research, applied research and development.,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,Publication Activity,
+									
+										,Inaugural and Habilitation Procedures,
+									
+										,Doctoral Study,
+									
+										,Projects,
+									
+										,Office of Science, Research and Doctoral Study,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+            ,
+                
+				,Contact,
+				
+				,
+				    ,
+				        ,
+				        	,
+  ,
+  ,
+    ,Contact,
+    
+    
+      ,Our contacts are at your disposal for any further information.,
+
+    
+    
+  , ,
+, 
+				            ,
+								,
+								  
+										,Rectorate,
+									
+										,Study Departments,
+									
+										,Innovations and Technology Transfer,
+									
+										,Education,
+									
+										,Science, Research and Doctoral Study,
+									
+										,International Relations and Mobilities,
+									
+										,Development and External Relations,
+									
+										,Quality Management,
+									
+								,
+							,
+				        , 
+					, 
+				, 
+			,
+			
+	    	,
+				,
+				   
+					  ,
+						
+  							  ,
+							  	
+							,Language:,
+							SK
+						    ,
+													
+					  ,
+					
+					  ,
+												
+					  ,
+					
+					,
+						,
+						,
+													  
+							,
+							,
+								,
+									
+								,
+							,									
+						,
+					,
+										
+				,
+			,
+	    ,
+	,
+, ,
+		, ,
+	,
+
+	,
+	,
+	,
+	,
+	,{},
+			,
+,
+	,
+		,
+			,
+				,
+,
+	,
+	,
+	    ,
+	    ,
+	    ,
+		,
+		,
+			,
+				,
+					,
+					,bannerSmall,
+				,
+				,
+				,
+					,
+						,Display content menu,
+					,
+				,
+			    ,
+			    ,
+	    		,
+				,
+					,
+						,Display portlet menu,
+					,
+				,
+			,
+		,
+	,
+	
+	,
+	,
+		,
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            ,
+  
+    ,University,
+  
+  ,
+    
+
+  
+  
+    ,
+TUKE,
+  
+
+
+
+
+ > 
+
+  
+  
+    ,
+University,
+  
+
+
+
+
+ > 
+  Notices
+
+
+
+
+
+
+  ,				
+,
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+,
+, 
+,
+		,
+	,
+	,
+		,
+			,
+				,
+,
+	,
+	,
+	    ,
+	    ,
+	    ,
+		,
+		,
+			,
+				,
+					,
+					,leftMenu,
+				,
+				,
+				,
+					,
+						,Display content menu,
+					,
+				,
+			    ,
+			    ,
+	    		,
+				,
+					,
+						,Display portlet menu,
+					,
+				,
+			,
+		,
+	,
+	
+	,
+	,
+		,
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            
+  
+		,
+			,
+	
+	        ,
+	        	,
+	        		,About Us,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,TUKE Organizational Structure,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,University Bodies,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Clubs and Associations,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,University Symbols,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Innovations and Technology Transfer,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Education,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Science, Research and Doctoral Study,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of International Relations and Mobilities,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Gender equality,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Free Access to Information,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,University Legislation,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Annual Reports and Documents,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Quality Management,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Gallery,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Notices,
+	            ,
+	        ,
+	    
+	    ,
+	    
+  			,
+  			  			
+  			,
+	        	,Notices,
+	        	,
+	        ,
+	        
+	        ,
+	        	,
+	        		,About Us,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,TUKE Organizational Structure,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,University Bodies,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Clubs and Associations,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,University Symbols,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Innovations and Technology Transfer,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Education,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Science, Research and Doctoral Study,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of International Relations and Mobilities,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Gender equality,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Free Access to Information,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,University Legislation,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Annual Reports and Documents,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Division of Quality Management,
+	            ,
+	        ,
+	    
+	        ,
+	        	,
+	        		,Gallery,
+	            ,
+	        ,
+	    
+	    ,
+	    ,
+
+
+
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+,
+, 
+,
+			,
+				,
+,
+	,
+	,
+	    ,
+	    ,
+	    ,
+		,
+		,
+			,
+				,
+					,
+					,Notices,
+				,
+				,
+				,
+					,
+						,Display content menu,
+					,
+				,
+			    ,
+			    ,
+	    		,
+				,
+					,
+						,Display portlet menu,
+					,
+				,
+			,
+		,
+	,
+	
+	,
+	,
+		,
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            
+  ,
+  ,Notices,
+,University Highlights,Messages,Events,Media,Open Positions,Public Procurement,For Employees,
+  ,
+    ,
+      ,
+        St. Gorazd Award
+      ,
+    ,
+   ,University Highlights,
+    
+    ,09. May 2022,
+  ,
+  ,
+    The Ministry of Education gave the Grand Medal, the Minor Medal, and the Appreciation Letter of St. Gorazd to educators, who contributed to the education development in Slovakia.
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        Student Personality of the Year at TUKE
+      ,
+    ,
+   ,University Highlights,
+    
+    ,14. April 2022,
+  ,
+  ,
+    Michal Takáč from the Faculty of Mining, Ecology, Process Control and Geotechnologies won the prize in the category of metallurgy, engineering, and energy.
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        Košice Hockey Derby 2022 TUKE vs. UPJŠ
+      ,
+    ,
+   ,University Highlights,
+    
+    ,08. April 2022,
+  ,
+  ,
+    This year's Košice hockey derby between TUKE and UPJŠ took a place in the Crow arena on April 4, 2022. The TUKE hockey team was more successful and defeated UPJŠ  9:4.
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        The FMMR Profesor awarded The Grand Medal of Saint Gorazd
+      ,
+    ,
+   ,University Highlights,
+    
+    ,28. March 2022,
+  ,
+  ,
+    On the occasion of Teachers' Day, Prof. Ing. Tomáš Havlík, DrSc. was awarded The Grand Medal of Saint Gorazd by the Minister of Education, Science, Research and Sport of the Slovak Republic.
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        Technical University in Košice expresses solidarity and support for Ukrainian students and their families
+      ,
+    ,
+   ,Messages,
+    
+    ,28. February 2022,
+  ,
+  ,
+    The university management has decided to take the following measures:
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        TUKE is a leader in patent filings
+      ,
+    ,
+   ,University Highlights,
+    
+    ,11. February 2022,
+  ,
+  ,
+    The Industrial Property Office of the Slovak Republic has published statistics, which show that universities currently generate up to a third of Slovak patents. Out of 221 patent applications filed in 2020, a third comes from the Slovak university environment.
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        Coronavirus – information, measures
+      ,
+    ,
+   ,Messages,
+    
+    ,10. February 2022,
+  ,
+  ,
+    
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        Newly Appointed Professors from TUKE
+      ,
+    ,
+   ,University Highlights,
+    
+    ,19. January 2022,
+  ,
+  ,
+    On January 18, 2022, thirty-three new university professors took over the appointment decrees in the fields of habilitation proceedings and inauguration proceedings (HKaIK) from the President of the Slovak Republic, Zuzana Čaputová. Among the newly appointed professors were also members of the academic community of the Technical University in Košice
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        The Final Evaluation Results of the Research Grant for Young People of the 2021
+      ,
+    ,
+   ,Messages,
+    
+    ,17. January 2022,
+  ,
+  ,
+    The reports on the solution of the research grant for young researchers for the year 2021, which were sent to the Department of Science, Research and Doctoral Studies of TUKE were responsibly assessed by Prof. Ing. Ivo Petráš, DrSc., Chairman of the TUKE Commission for Science and Research.
+    ,(show more),
+  ,
+,
+  ,
+    ,
+      ,
+        St. Gorazd Prize awarded to a TUKE student
+      ,
+    ,
+   ,University Highlights,
+    
+    ,11. January 2022,
+  ,
+  ,
+    Samuel Andrejčík who studies at the Technical University in Košice won the St. Gorazd Prize, awarded by the Minister of Education, Science, Research and Sport of the Slovak Republic.
+    ,(show more),
+  ,
+,<2  ,3,  ,4,  ,5,  ...  ,>,  ,>>,
+,
+    
+
+,News RSS,
+
+,
+,
+
+
+
+
+
+
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+,
+, 
+,			
+		,
+	, ,
+	,
+		,
+			,
+				,
+				,
+,
+	,
+	,
+	    ,
+	    ,
+	    ,
+		,
+		,
+			,
+				,
+					,
+					,News Calendar,
+				,
+				,
+				,
+					,
+						,Display content menu,
+					,
+				,
+			    ,
+			    ,
+	    		,
+				,
+					,
+						,Display portlet menu,
+					,
+				,
+			,
+		,
+	,
+	
+	,
+	,
+		,
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            
+
+,
+,
+var ns_Z7_6910G340M0N3D0ABVIGC752D22_spHelper=(function() {
+  return {
+	getPreferenceURI : function(){
+ 	 return ""/wps/contenthandler/!ut/p/digest!wY6xG1q2xd8pNhMPJ5QLjg/portlet/Z7_6910G340M0N3D0ABVIGC752D22@Z6_LA542J40MGCHF0APUQQ5AB0OG2/preferences/all"";
+	},
+	getPortletPreferences: function (){
+        if(typeof i$ == ""undefined"") //set error promise
+	    return new ErrorPromise(function (resolve, reject) {
+	        var reason = new Error('Error0001:Preference data is not available in this context.');
+	        reject(reason);
+	    });
+	 return spInstanceHelper.getPortletPreferences(ns_Z7_6910G340M0N3D0ABVIGC752D22_spHelper.getPreferenceURI());
+	},
+	setPortletPreferences: function (data){
+        if(typeof i$ == ""undefined"") //set error promise
+	    return new ErrorPromise(function (resolve, reject) {
+	        var reason = new Error('Error0001:Preference data is not available in this context.');
+	        reject(reason);
+	    });
+	  return spInstanceHelper.setPortletPreferences(ns_Z7_6910G340M0N3D0ABVIGC752D22_spHelper.getPreferenceURI(), data);
+	},
+	userName : """",
+	userId :  """",
+	userCn : """",
+	userSn : """",
+	userLanguage : """",
+	renderingLocale : ""en""
+   };
+ })();
+,
+
+
+	
+		
+	
+	,
+		/* line 1, ../sass/_calendar.scss */
+.calendar-nav {
+  background-color: #3c3c3d;
+  position: relative; }
+/* line 5, ../sass/_calendar.scss */
+.calendar-nav button {
+  position: absolute;
+  background-color: transparent;
+  color: #c92c35;
+  font-size: 14px;
+  border: none;
+  top: 50%;
+  margin-top: -7px;
+  padding: 0; }
+/* line 15, ../sass/_calendar.scss */
+.calendar-nav button.prev {
+  left: 30px; }
+/* line 19, ../sass/_calendar.scss */
+.calendar-nav button.next {
+  right: 30px; }
+@media (max-width: 480px) {
+  /* line 24, ../sass/_calendar.scss */
+  .calendar-nav button.prev {
+    left: 15px; }
+  /* line 28, ../sass/_calendar.scss */
+  .calendar-nav button.next {
+    right: 15px; } }
+/* line 34, ../sass/_calendar.scss */
+.calendar-nav p {
+  font-family: ""Open Sans"", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 40px;
+  margin-bottom: 0;
+  text-align: center; }
+/* line 42, ../sass/_calendar.scss */
+.calendar-nav p small {
+  font-weight: 300; }
+
+/* line 48, ../sass/_calendar.scss */
+.calendar {
+  width: 100%;
+  font-family: ""Open Sans"", sans-serif;
+  background-color: #fff; }
+/* line 52, ../sass/_calendar.scss */
+.calendar th, .calendar td {
+  text-align: center;
+  padding: 15px 5px; }
+/* line 60, ../sass/_calendar.scss */
+.calendar thead th {
+  color: #c92c35; }
+/* line 68, ../sass/_calendar.scss */
+.calendar tbody td {
+  font-weight: 600;
+  color: #555555; }
+/* line 72, ../sass/_calendar.scss */
+.calendar tbody td .day {
+  position: relative; }
+/* line 76, ../sass/_calendar.scss */
+.calendar tbody td .event {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  margin-left: -4px;
+  width: 8px;
+  height: 8px; }
+/* line 84, ../sass/_calendar.scss */
+.calendar tbody td .event:before {
+  content: """";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background-color: #000; }
+/* line 96, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-1:before {
+  background-color: #f36e30; }
+/* line 102, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-2:before {
+  background-color: #00589b; }
+/* line 108, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-3:before {
+  background-color: #009724; }
+/* line 114, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-4:before {
+  background-color: #8e6b8a; }
+/* line 120, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-5:before {
+  background-color: #8f816b; }
+/* line 126, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-6:before {
+  background-color: #c82b2f; }
+/* line 132, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-7:before {
+  background-color: #3c3c3d; }
+/* line 138, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-8:before {
+  background-color: #aea753; }
+/* line 144, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-9:before {
+  background-color: #00bae4; }
+/* line 150, ../sass/_calendar.scss */
+.calendar tbody td .event.event-cat-10:before {
+  background-color: #00589b; }
+/* line 155, ../sass/_calendar.scss */
+.calendar tbody td .event .event-content {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: 100%;
+  padding-bottom: 10px;
+  z-index: 40;
+  font-size: 12px;
+  line-height: 1.1; }
+/* line 168, ../sass/_calendar.scss */
+.calendar tbody td .event .event-content > span {
+  background-color: rgba(67, 74, 84, 0.9);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  width: 140px;
+  padding: 5px;
+  display: block;
+  position: relative; }
+/* line 176, ../sass/_calendar.scss */
+.calendar tbody td .event .event-content > span:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "" "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: rgba(67, 74, 84, 0.9);
+  border-width: 5px;
+  margin-left: -5px; }
+/* line 196, ../sass/_calendar.scss */
+.calendar tbody td .event:hover .event-content {
+  display: block; }
+/* line 203, ../sass/_calendar.scss */
+.calendar tbody td .event-2 .event {
+  right: auto;
+  left: 50%;
+  margin-left: -10px; }
+/* line 209, ../sass/_calendar.scss */
+.calendar tbody td .event-2 .event + .event {
+  margin-left: 2px; }
+/* line 217, ../sass/_calendar.scss */
+.calendar tbody td .event-3 .event {
+  left: 50%;
+  margin-left: -16px;
+  right: auto; }
+/* line 223, ../sass/_calendar.scss */
+.calendar tbody td .event-3 .event + .event {
+  margin-left: -4px; }
+/* line 227, ../sass/_calendar.scss */
+.calendar tbody td .event-3 .event + .event + .event {
+  margin-left: 8px; }
+/* line 232, ../sass/_calendar.scss */
+.calendar tbody td.nextMonth, .calendar tbody td.prevMonth {
+  color: #bababa; }
+
+	,
+	
+                ,
+  ,
+    , ,
+    , ,
+
+    ,
+
+
+  ,
+  ,
+    ,
+      ,
+
+
+        ,Mon,Tue,Wed,Thu,Fri,Sat,Sun,
+
+      ,
+    ,
+
+    ,
+      ,
+        ,Loading backend data,
+      ,
+    ,
+  ,
+,
+        ,
+                /* 
+Method Array.prototype.where and lambda by Paul
+http://www.paulfree.com/28/javascript-array-filtering/
+*/
+Array.prototype.where = function(f) {
+  var fn = f;
+  // if type of parameter is string         
+  if (typeof f == ""string"")
+  // try to make it into a function
+    if ((fn = lambda(fn)) == null)
+    // if fail, throw exception
+      throw ""Syntax error in lambda string: "" + f;
+    // initialize result array
+  var res = [];
+  var l = this.length;
+  // set up parameters for filter function call
+  var p = [0, 0, res];
+  // append any pass-through parameters to parameter array               
+  for (var i = 1; i < arguments.length; i++) p.push(arguments[i]);
+  // for each array element, pass to filter function
+  for (var i = 0; i < l; i++) {
+    // skip missing elements
+    if (typeof this[i] == ""undefined"") continue;
+    // param1 = array element             
+    p[0] = this[i];
+    // param2 = current indeex
+    p[1] = i;
+    // call filter function. if return true, copy element to results            
+    if (!!fn.apply(this, p)) res.push(this[i]);
+  }
+  // return filtered result
+  return res;
+}
+
+
+//global variables
+//month names
+
+
+var cal_months = [""January"", ""February"", ""March"", ""April"", ""May"", ""June"", ""July"", ""August"", ""September"", ""October"", ""November"", ""December""];
+
+//long month code
+var cal_lo_mo = [0, 2, 4, 6, 7, 9, 11];
+
+
+//instance variables
+var Today = new Date();
+var curDate = Today.getDate();
+var month = Today.getMonth();
+var year = Today.getFullYear();
+var nMonth = setMonth(month,true);
+var pMonth = setMonth(month,false);;
+var nYear = setYear(year,month,true);
+var pYear = setYear(year,month,false);
+
+var evObj;
+//event JSON
+loadJSON(function(response) {
+  // Parse JSON string into object
+    evObj = JSON.parse(response);
+    console.debug(evObj);
+});
+
+renderCalendar(month, year);
+
+function nextMonth(){
+console.log('nextMonth'+nMonth);
+renderCalendar(nMonth,nYear);
+  setPrevMoYe(true);
+  setNextMoYe(true);
+}
+
+function prevMonth(){
+  renderCalendar(pMonth,pYear);
+  setPrevMoYe(false);
+  setNextMoYe(false);
+  console.log('new previous month '+pMonth);
+}
+
+//function render calendar
+function renderCalendar(month, year) {
+
+  document.getElementById('calendar-label').innerHTML = cal_months[month] + ""&nbsp;<small>"" + year + ""</small>"";
+
+  var monthDays = getMonthDays(month);
+  var prMonth = setMonth(month,false);
+  var neMonth = setMonth(month,true);
+  var prevMonthDays = getMonthDays(prMonth);
+  var firstDate = new Date(year, month, 1);
+  var firstDay = (firstDate.getDay()==0)?6:firstDate.getDay()-1;
+  var dayCounter = firstDay;
+  var realMonth = month + 1;
+
+  //calendar rendering  
+  var calendar = '<tr>';
+  var monthEv;
+  
+  yearEv = evObj.where(""( el, i, res, param ) => el.ev_year == param"", year);
+  //previous month
+  if (firstDay > 0) {
+    monthEv = yearEv.where(""( el, i, res, param ) => el.ev_month == param"", prMonth+1);
+    console.debug(prevMonthDays, firstDay);
+    prevMonthDays = prevMonthDays - firstDay+1;
+    while (firstDay > 0) {
+      console.debug('day:' + prevMonthDays + ' dayOfWeek:' + firstDay);
+      var dayEv = monthEv.where(""( el, i, res, param ) => el.ev_day == param"", prevMonthDays);
+      calendar = calendar + renderDate(curDate, prevMonthDays, dayEv, 'prevMonth');
+      prevMonthDays++;
+      firstDay = firstDay - 1;
+    }
+  }
+  monthEv = yearEv.where(""( el, i, res, param ) => el.ev_month == param"", realMonth);
+  //current month
+  for (i = 1; i <= monthDays; i++) {
+    console.debug('day:' + i + ' dayOfWeek:' + dayCounter);
+    var dayEv = monthEv.where(""( el, i, res, param ) => el.ev_day == param"", i);
+    calendar = calendar + renderDate(curDate, i, dayEv, '');
+
+    if (dayCounter >= 6) {
+      //weekNum++;
+      calendar = calendar + '</tr><tr>';
+      dayCounter = -1;
+    }
+    dayCounter++;
+  }
+  var nextMonthDays = 1;
+  if (dayCounter <= 6) {
+    monthEv = yearEv.where(""( el, i, res, param ) => el.ev_month == param"", neMonth+1);
+    while (dayCounter <= 6) {
+      console.debug('day:' + nextMonthDays + ' dayOfWeek:' + dayCounter);
+      var dayEv = monthEv.where(""( el, i, res, param ) => el.ev_day == param"", nextMonthDays);
+      calendar = calendar + renderDate(curDate, nextMonthDays, dayEv, 'nextMonth');//    calendar = calendar + '<td class=""nextMonth""><span class=""day"">' + nextMonthDays + '</span></td>';
+      nextMonthDays++;
+      dayCounter = dayCounter + 1;
+    }
+  }
+  calendar = calendar + '</tr>';
+  document.getElementById('calendar-table').innerHTML = calendar;
+}
+
+//render calendar day entry
+function renderDate(curDate, date, evObj, baseDayClass) {
+  console.debug(evObj);
+  var rdate;
+
+  rdate = '<td class=""' + baseDayClass + '""><span class=""day' + ((evObj.length > 0) ? (((evObj.length < 3) ? ' event-' + evObj.length : ' event-3')) : '') + '"">' + date;
+  if (evObj.length > 0) {
+    for (x = 0; x < evObj.length; x++) {
+      console.debug(date+' writing event:' + evObj[x].ev_title);
+      var cat = getCategoryTag(evObj[x].ev_cat);
+      rdate += '<a class=""event event-' + cat + '"" href=""' + evObj[x].ev_url + '""><span class=""event-content""><span>' + evObj[x].ev_title + '</span></span></a>';
+    }
+  }
+
+  rdate += '</span></td>';
+  return rdate;
+}
+
+// Category CSS name with default option
+function getCategoryTag(category) {
+	var re = new RegExp(""^cat-\\d+$"");
+    if (re.test(category)) {
+        return category;
+    } else {
+        return ""cat-5"";
+    }
+}
+
+//calculate month days
+function getMonthDays(month) {
+  var monthDays = 30;
+  if (cal_lo_mo.indexOf(month) >= 0) {
+    monthDays = 31;
+  } else if (month == 1) {
+    if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
+      monthDays = 29;
+    } else {
+      monthDays = 28;
+    }
+  }
+  console.debug('monthDays:' + monthDays);
+  return monthDays;
+}
+
+function setPrevMoYe(increase){
+  pYear = setYear(pYear,pMonth,increase);
+  pMonth = setMonth(pMonth,increase);
+}
+
+function setNextMoYe(increase){
+  nYear = setYear(nYear,nMonth,increase);
+  nMonth = setMonth(nMonth,increase);
+}
+
+function setYear(year,month,increase){
+ if(increase == true){
+  year = (month>=11)?year+1:year;
+ }else{
+  year = (month<=0)?year-1:year;
+ }
+ return year;
+}
+
+function setMonth(month,increase){
+ if(increase == true){
+  month = (month>=11)?0:month+1;
+ }else{
+  month = (month<=0)?11:month-1;
+ }
+ return month;
+}
+
+function loadJSON(callback) {   
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType(""application/json"");
+    //xobj.open('GET', 'xobj.overrideMimeType(""application/json""');
+  console.debug('LOCALE:non SK');
+    xobj.open('GET', '/wps/wcm/connect/tuke_en/feeds/NovinkyJSON', false); //', false); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == ""200"") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+ }
+
+function lambda(l) {
+  var fn = l.match(/\((.*)\)\s*=>\s*(.*)/);
+  var p = [];
+  var b = """";
+
+  if (fn.length > 0) fn.shift();
+  if (fn.length > 0) b = fn.pop();
+  if (fn.length > 0) p = fn.pop()
+    .replace(/^\s*|\s(?=\s)|\s*$|,/g, '').split(' ');
+
+  // prepend a return if not already there.
+  fn = ((!/\s*return\s+/.test(b)) ? ""return "" : """") + b;
+
+  p.push(fn);
+
+  try {
+    return Function.apply({}, p);
+  } catch (e) {
+    return null;
+  }
+}
+        ,
+		
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+,
+, 
+,
+		,
+	,
+,
+,
+	,
+	,
+	,
+	,
+		
+	,
+		,
+		    ,
+		    
+    		   ,
+    		       ,
+    		         ,Site Map,
+    		       ,
+    		       
+    		       
+    		   , 
+    		   ,
+    		       ,
+    		         ,Personal Data Protection,
+    		       ,
+    		       
+    		       
+    		   , 
+    		   ,
+    		       ,
+    		         ,Accessibility Statement,
+    		       ,
+    		       
+    		       
+    		   , 
+		    , 
+		,     
+	, ,
+			,
+                                ,
+				,
+					© 2022 Technical University of Košice, all rights reserved.,
+                                                                                                    
+				
+		,		
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+		,
+, ,
+		, ,
+
+	,
+
+	
+		,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+			,
+	
+		,
+,
+	,
+		,Complementary Content,
+		,i$.merge({""ibmCfg"":{""themeConfig"":{""themeUniqueName"":""sk.tuke.portal.TukeWebTheme"",""themeRootURI"":""/wps/contenthandler/!ut/p/digest!XzWpHd4WWNGJyUWtkUvndg/dav/fs-type1/themes/TukeWebTheme"",""themeWebAppBaseURI"":""/wps/defaultTheme85/themes/html/dynamicSpots"",""themeWebDAVBaseURI"":""dav:fs-type1/themes/TukeWebTheme/"",""modulesWebAppBaseURI"":""/wps/themeModules"",""commonResourcesRootURI"":""/wps/contenthandler/!ut/p/digest!XzWpHd4WWNGJyUWtkUvndg/dav/fs-type1/common-resources"",""isRTL"":false,""isPageRenderModeCSA"":false,""portletOverridePageTitle"":""Notices"",""currentContentNodeOID"":""Z6_LA542J40MGCHF0APUQQ5AB0OG2"",""loadingImage"":""css/images/loading.gif"",""dndSourceDefinitions"":[],""categorySources"":[],""styleSources"":[],""layoutSources"":[]},""portalConfig"":{""locale"":""en"",""portalURI"":""/wps/portal"",""contentHandlerURI"":""/wps/contenthandler/!ut/p/digest!wY6xG1q2xd8pNhMPJ5QLjg/"",""pocURI"":""/wps/portal/!ut/p/z0/0wcA1NLTeQ!!/"",""isVirtualPortal"":false,""canImpersonate"":false,""themeRootURI"":""/wps/defaultTheme85/themes/html/dynamicSpots"",""parentPageID"":""Z6_414A1440MG7RD0A9QU2S8V1083"",""currentPageOID"":""Z6_LA542J40MGCHF0APUQQ5AB0OG2"",""canAnonymousUserViewCurrentPage"":true,""bootstrapState"":""&lt;?xml version=&#034;1.0&#034; encoding=&#034;UTF-8&#034;?&gt;&lt;root xmlns=&#034;http://www.ibm.com/xmlns/prod/websphere/portal/v6.1/portal-state&#034;&gt;&lt;state type=&#034;navigational&#034;&gt;&lt;selection selection-node=&#034;Z6_LA542J40MGCHF0APUQQ5AB0OG2&#034;&gt;&lt;mapping src=&#034;Z6_000000000000000000000000A0&#034; dst=&#034;Z6_LA542J40MGCHF0APUQQ5AB0OG2&#034;/&gt;&lt;/selection&gt;&lt;expansions&gt;&lt;node id=&#034;Z6_414A1440MG7RD0A9QU2S8V1083&#034;/&gt;&lt;node id=&#034;Z6_LA542J40MO8620APITND4MPN50&#034;/&gt;&lt;node id=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/expansions&gt;&lt;/state&gt;&lt;/root&gt;"",""isUserLoggedIn"":false,""currentUser"":""anonymous portal user"",""currentUserOID"":"""",""aggregatedStyle"":null,""isCurrentPageEditable"":true,""wcmPageMetadata"":{""contentRoot"":null,""sharingScope"":null},""projectUUID"":null},""userName"":""""},""com_ibm_theme_capabilities"":{""wp_dialog_draggable"":""0.0"",""wp_hiddenpages"":""0.0"",""wp_simple_contextmenu_ext"":""0.0"",""wp_simple_contextmenu_js"":""0.0"",""wp_toolbar_sitepreview_menuactions"":""0.0"",""wp_theme_utils"":""0.0"",""wp_toolbar_menuactions"":""0.0"",""wp_toolbar_host_view"":""0.0"",""wp_dyncs_tuke"":""0.0"",""wp_hiddencontent"":""0.0"",""wp_portal"":""0.0"",""photon.dom"":""1.0"",""wp_photon_dom"":""0.0"",""wp_toolbar_sitepreview"":""0.0"",""wp_client_tracing"":""0.0"",""modules"":""0.1"",""wt_layoutGrid"":""0.0"",""edit_layout"":""0.0"",""hasBaseURL"":""true"",""wp_state_page_modes"":""0.0"",""wp_toolbar_common_actionbar"":""0.0"",""wp_client_main"":""0.0"",""wp_toolbar_viewframe_validator"":""0.0"",""wp_toolbar_actionbar"":""0.0"",""simple-contextmenu"":""1.1"",""wp_dialog_css"":""0.0"",""wp_theme_tuke"":""0.0"",""jquery"":""1.12.2"",""wp_client_logging"":""0.0"",""wp_state_page"":""0.0"",""wp_toolbar_common"":""0.0"",""wp_theme_tuke_js"":""0.0"",""wp_toolbar_projectmenu"":""0.0"",""jquery_1_12_2"":""0.0"",""wp_dialog_main"":""0.0"",""wp_simple_contextmenu_main"":""0.0"",""wp_toolbar_moremenu"":""0.0"",""wp_toolbar_contextmenu"":""0.0"",""wp_client_ext"":""0.0"",""wp_simple_contextmenu_css"":""0.0"",""wp_toolbar85"":""0.0"",""wp_modules"":""0.0"",""wp_theme_tuke_css"":""0.0"",""toolbar"":""8.5"",""wp_dialog_util"":""0.0"",""wp_toolbar_utils"":""0.0"",""a11y"":""1.0"",""wp_a11y"":""0.0"",""jquery_bxslider_js"":""0.0"",""wp_simple_contextmenu_templates"":""0.0"",""wp_toolbar_logo"":""0.0""},""com_ibm_device_class"":[]});ibmCfg.portalConfig.bootstrapState=(ibmCfg.portalConfig.bootstrapState||"""").replace(/&lt;/gm, '<').replace(/&gt;/gm, '>').replace(/&amp;/gm, '&').replace(/&#039;/gm, ""'"").replace(/&#034;/gm, '""');i$.merge({""ibmCfg"":{""portalConfig"":{""isShowHiddenPages"":false}}});,
+    ,
+        ,
+        ,
+        ,
+            ,${title},${badge},
+        ,
+    ,
+    ,
+    ,${loading},
+    ,
+    ,
+        ,
+            ,
+        ,
+    ,
+,
+            ,
+,
+,
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-20153854-3');
+,
+
+		,
+	if (!(""ontouchstart"" in document)) {
+		document.body.className += ' wtNoTouch';
+	}
+	,
+,
+"
