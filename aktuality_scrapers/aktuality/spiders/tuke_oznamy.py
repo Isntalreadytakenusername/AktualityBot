@@ -23,7 +23,7 @@ class TukeOznamySpider(scrapy.Spider):
 
       date = response.xpath("(//time/text())[1]").extract_first()
       title = response.xpath("(//article//h1/a/text())[1]").extract_first()
-      link = 'www.tuke.sk/wps/portal/tuke/university/news' + response.xpath("(//article//h1/a/@href)[1]").extract_first()
+      link = 'www.tuke.sk' + response.xpath("(//article//h1/a/@href)[1]").extract_first()
       text = response.xpath("(//article//p/text())[1]").extract_first()
       # all = response.xpath("//html//text()").extract()
       # yield {'all': all}
