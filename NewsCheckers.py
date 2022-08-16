@@ -55,8 +55,13 @@ class NewsChecker:
                 print("New post found")
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-                self.telegram_bot.send_bots_message()
+                # check if post is less than 2 days old
+                if self.scraper_output_df["date"][0] > (time.time() - (60*60*24*2)):
+                    self.telegram_bot.send_message()
+                # self.telegram_bot.send_bots_message()
         else:
             self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-            self.telegram_bot.send_bots_message()
+            if self.scraper_output_df["date"][0] > (time.time() - (60*60*24*2)):
+                self.telegram_bot.send_message()
+            # self.telegram_bot.send_bots_message()
         # check whether we have last results
