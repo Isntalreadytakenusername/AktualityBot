@@ -70,7 +70,9 @@ class NewsChecker:
                 
                 # if the post is not in History.csv, write it to History.csv and send it with the bot, use concat to add the new row to the dataframe
                 history_df = pd.concat([history_df, self.scraper_output_df.iloc[0:1]])
-                # history_df = history_df.append({"text": self.scraper_output_df["text"][0], "date": self.scraper_output_df["date"][0]}, ignore_index=True)
+                # delete History.csv and write the new dataframe to History.csv
+                os.remove("History.csv")
+                history_df.to_csv("History.csv", index=False)
 
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
