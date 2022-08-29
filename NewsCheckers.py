@@ -68,13 +68,14 @@ class NewsChecker:
                         print("The post was already sent")
                         return
                 
-                # if the post is not in History.csv, write it to History.csv and send it with the bot
-                history_df = history_df.append({"text": self.scraper_output_df["text"][0], "date": self.scraper_output_df["date"][0]}, ignore_index=True)
+                # if the post is not in History.csv, write it to History.csv and send it with the bot, use concat to add the new row to the dataframe
+                history_df = pd.concat([history_df, self.scraper_output_df.iloc[0:1]])
+                # history_df = history_df.append({"text": self.scraper_output_df["text"][0], "date": self.scraper_output_df["date"][0]}, ignore_index=True)
 
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
 
-                print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================\n {self.scraper_output_df["text"][0]}")
+                print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================\n")
                 # self.telegram_bot.send_bots_message()
         else:
             self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
