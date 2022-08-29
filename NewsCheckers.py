@@ -74,14 +74,9 @@ class NewsChecker:
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
 
-                # check if post is less than 2 days old to avoid sending old posts again if the last post is deleted
-                if self.scraper_output_df["date"][0] > (time.time() - (60*60*24*2)):
-                    print("==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================")
-                    # self.telegram_bot.send_message()
+                print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================\n {self.scraper_output_df["text"][0]}")
                 # self.telegram_bot.send_bots_message()
         else:
             self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-            if self.scraper_output_df["date"][0] > (time.time() - (60*60*24*2)):
-                self.telegram_bot.send_message()
+            print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================")
             # self.telegram_bot.send_bots_message()
-        # check whether we have last results
