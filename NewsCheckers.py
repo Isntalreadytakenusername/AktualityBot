@@ -77,9 +77,9 @@ class NewsChecker:
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
 
-                print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================\n")
-                # self.telegram_bot.send_bots_message()
+                # print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================\n")
+                self.telegram_bot.send_bots_message()
         else:
             self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-            print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================")
-            # self.telegram_bot.send_bots_message()
+            # print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================")
+            self.telegram_bot.send_bots_message()
