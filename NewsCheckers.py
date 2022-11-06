@@ -64,14 +64,13 @@ class NewsChecker:
                 history_df = pd.read_csv("History.csv")
                 # check whether the post is already in History.csv using text and date fields. Check each row in History.csv and compare it to the last post (text and date)
                 for i in range(len(history_df)):
-                    if 'link' in history_df.columns:
+                    if 'link' in self.scraper_output_df.columns:
                       if (history_df["text"][i] == self.scraper_output_df["text"][0]
                           or history_df["link"][i] == self.scraper_output_df["link"][0]) and (history_df["date"][i] == self.scraper_output_df["date"][0]):
                             print("The post was already sent")
                             return
                     else:
-                      if (history_df["text"][i] == self.scraper_output_df["text"][0]
-                          or history_df["link"][i] == self.scraper_output_df["link"][0]) and (history_df["date"][i] == self.scraper_output_df["date"][0]):
+                      if (history_df["text"][i] == self.scraper_output_df["text"][0]) and (history_df["date"][i] == self.scraper_output_df["date"][0]):
                             print("The post was already sent")
                             return
                 

@@ -14,8 +14,13 @@ class CheckNewsProcess:
 
     def run(self):
         while True:
-            for news_checker in self.news_checkers_list:
-                news_checker.check_for_new_posts()
-                news_checker.check_whether_the_post_is_new()
+            try:
+                for news_checker in self.news_checkers_list:
+                    news_checker.check_for_new_posts()
+                    news_checker.check_whether_the_post_is_new()
 
-            self.countdown_to_next_check()
+                self.countdown_to_next_check()
+            except:
+                print('Something went wrong, trying again in 5 minutes')
+                time.sleep(300)
+                continue
