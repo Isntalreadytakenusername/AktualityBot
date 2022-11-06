@@ -3,6 +3,8 @@ import os
 from CheckNewsProcess import CheckNewsProcess
 from NewsCheckers import NewsChecker
 
+# for replit not to give nasty permission errors regarding scrapy 
+os.system("chmod +rwx venv/bin/scrapy")
 
 
 #we need to run the scraper from here and

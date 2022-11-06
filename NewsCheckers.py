@@ -22,6 +22,11 @@ class NewsChecker:
         self.telegram_bot = TelegramBot(self.last_scraper_output_file, environment_variable_with_api_key_for_bot, chat_id, is_text, is_title, is_date, is_image, is_link)
         self.telegram_bot.prepare_bot("API_KEY")
 
+        # if there is no file History.csv, create it with columns text and date using pandas
+        if not os.path.exists("History.csv"):
+            df = pd.DataFrame(columns=["text", "date"])
+            df.to_csv("History.csv", index=False)
+
 
 
     def check_for_new_posts(self):
@@ -53,15 +58,34 @@ class NewsChecker:
                 print("No new posts")
             else:
                 print("New post found")
+
+                # now check whether the post was already recorded to History.csv. This is needed becouse new post may be deleted and the last post that was already published will be published
+                # again. To avoid this, we check whether the post is already in History.csv
+                history_df = pd.read_csv("History.csv")
+                # check whether the post is already in History.csv using text and date fields. Check each row in History.csv and compare it to the last post (text and date)
+                for i in range(len(history_df)):
+                    if 'link' in self.scraper_output_df.columns:
+                      if (history_df["text"][i] == self.scraper_output_df["text"][0]
+                          or history_df["link"][i] == self.scraper_output_df["link"][0]) and (history_df["date"][i] == self.scraper_output_df["date"][0]):
+                            print("The post was already sent")
+                            return
+                    else:
+                      if (history_df["text"][i] == self.scraper_output_df["text"][0]) and (history_df["date"][i] == self.scraper_output_df["date"][0]):
+                            print("The post was already sent")
+                            return
+                
+                # if the post is not in History.csv, write it to History.csv and send it with the bot, use concat to add the new row to the dataframe
+                history_df = pd.concat([history_df, self.scraper_output_df.iloc[0:1]])
+                # delete History.csv and write the new dataframe to History.csv
+                os.remove("History.csv")
+                history_df.to_csv("History.csv", index=False)
+
                 os.remove(self.last_scraper_output_file)
                 self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-                # check if post is less than 2 days old
-                if self.scraper_output_df["date"][0] > (time.time() - (60*60*24*2)):
-                    self.telegram_bot.send_message()
-                # self.telegram_bot.send_bots_message()
+
+                # print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================\n")
+                self.telegram_bot.send_bots_message()
         else:
             self.scraper_output_df.to_csv(self.last_scraper_output_file, index=False)
-            if self.scraper_output_df["date"][0] > (time.time() - (60*60*24*2)):
-                self.telegram_bot.send_message()
-            # self.telegram_bot.send_bots_message()
-        # check whether we have last results
+            # print(f"==============================THE MESSAGE IS SENT. UNCOMMENT LATER====================================")
+            self.telegram_bot.send_bots_message()
