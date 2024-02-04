@@ -1,4 +1,4 @@
-pandas
-Scrapy
-selenium
-pyTelegramBotAPI
+pandas==1.4.2
+Scrapy==2.6.1
+selenium==4.2.0
+pyTelegramBotAPI==4.5.1

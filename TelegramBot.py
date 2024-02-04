@@ -49,8 +49,12 @@ class TelegramBot:
     def send_bots_message(self):
         self.prepare_bot(self.environment_variable_with_api_key_for_bot)
         self.prepare_bots_message()
-        self.bot.send_message(chat_id = self.chat_id, text = self.bots_message, parse_mode = 'HTML')
-        print("The message is sent")
+        # ignore messages with "výberové konanie"
+        if "výberové konanie" in self.bots_message:
+          print("Ignored výberové konanie.")
+        else:
+          self.bot.send_message(chat_id = self.chat_id, text = self.bots_message, parse_mode = 'HTML')
+          print("The message is sent.")
 
         
 
