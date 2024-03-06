@@ -1,5 +1,8 @@
 { pkgs }: {
   deps = [
+    pkgs.geckodriver
+    pkgs.glibcLocales
+    pkgs.glibc
     pkgs.python38Full
     pkgs.chromium
     pkgs.chromedriver
