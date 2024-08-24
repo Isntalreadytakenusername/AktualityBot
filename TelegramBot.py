@@ -29,7 +29,7 @@ class TelegramBot:
         self.bot = None
 
     def prepare_bot(self, environment_variable_with_api_key_for_bot):
-        API_KEY = os.environ[environment_variable_with_api_key_for_bot]
+        API_KEY = os.getenv(environment_variable_with_api_key_for_bot)
         bot = telebot.TeleBot(API_KEY)
         self.bot = bot
 
