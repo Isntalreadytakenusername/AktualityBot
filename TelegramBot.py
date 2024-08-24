@@ -61,6 +61,7 @@ class TelegramBot:
           print("The message is sent.")
           
     def send_logging_message(self, message):
+        self.prepare_bot(self.environment_variable_with_api_key_for_bot)
         self.bot.send_message(chat_id = self.chat_id, text = message)
 
         
