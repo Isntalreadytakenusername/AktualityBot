@@ -21,6 +21,7 @@ class TelegramBot:
         self.is_link = is_link
         self.is_title = is_title
         self.environment_variable_with_api_key_for_bot = environment_variable_with_api_key_for_bot
+        
         self.chat_id = chat_id
 
         self.bots_message = ""
@@ -28,7 +29,10 @@ class TelegramBot:
         self.bot = None
 
     def prepare_bot(self, environment_variable_with_api_key_for_bot):
-        API_KEY = os.environ[environment_variable_with_api_key_for_bot]
+        # API_KEY = os.environ[environment_variable_with_api_key_for_bot]
+        # temporary 
+        print("Remove the key after reload")
+        API_KEY = "5480715332:AAG4vVaNSZoNe06qIK89sR3IgV71jGKizfw"
         bot = telebot.TeleBot(API_KEY)
         self.bot = bot
 

@@ -13,6 +13,7 @@ class TukeAktualitySpider(scrapy.Spider):
       chrome_options.add_argument('--headless')
       chrome_options.add_argument('--no-sandbox')
       chrome_options.add_argument('--disable-dev-shm-usage')
+      chrome_options.binary_location = r"C:\Users\vlady\local_projects\chrome\chrome-win64\chrome.exe"
       driver = webdriver.Chrome(options=chrome_options)
       driver.set_window_size(1920, 1080)
       driver.get('https://www.tuke.sk/wps/portal/tuke/studies/st_news/!ut/p/z1/hc7BCsIwEATQb_ELdhO3SXpcqBaLjdFqrblIDlICGj2I328tvapzG3gDAx468Cm8Yh-e8Z7Cdegnr84qF1jOCevSaYNcLReZtkZiK-E4AvwSRvD_9n4kJIgFfYjeFcj59iAb0wqUYgJrzkhWA9gYJZHdam8Lqp3NcAI_PjSXBI9bh9H1szc7lCRI/dz/d5/L0lHSkovd0RNQUZrQUVnQSEhLzROVkUvc2s!/')
