@@ -59,6 +59,9 @@ class TelegramBot:
         else:
           self.bot.send_message(chat_id = self.chat_id, text = self.bots_message, parse_mode = 'HTML')
           print("The message is sent.")
+          
+    def send_logging_message(self, message):
+        self.bot.send_message(chat_id = self.chat_id, text = message)
 
         
 

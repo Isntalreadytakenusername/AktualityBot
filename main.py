@@ -13,7 +13,7 @@ from NewsCheckers import NewsChecker
 os.chdir('aktuality_scrapers')
 
 telegram_channel_id = '@fei_tuke_aktuality'
-# telegram_channel_id = '@aktuality_testing'
+telegram_channel_id = '@aktuality_testing'
 
 # # Temporarily removed tuke_oznamy as there is a mysterious problem with tuke oznamy and I have an exam period
 # news_checkers_list = [NewsChecker("fei", "aktuality.csv", "API_KEY", telegram_channel_id, True, True, True, False, True), NewsChecker("mais", "mais.csv", "API_KEY", telegram_channel_id, True, False, True, False, False),
