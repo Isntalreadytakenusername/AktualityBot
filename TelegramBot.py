@@ -29,10 +29,7 @@ class TelegramBot:
         self.bot = None
 
     def prepare_bot(self, environment_variable_with_api_key_for_bot):
-        # API_KEY = os.environ[environment_variable_with_api_key_for_bot]
-        # temporary 
-        print("Remove the key after reload")
-        API_KEY = "5480715332:AAG4vVaNSZoNe06qIK89sR3IgV71jGKizfw"
+        API_KEY = os.environ[environment_variable_with_api_key_for_bot]
         bot = telebot.TeleBot(API_KEY)
         self.bot = bot
 
