@@ -45,4 +45,4 @@ class CheckNewsProcess:
                 os.chdir(self.initial_dir)
 
                 python = sys.executable
-                os.execv(python, [python] + sys.argv)
+                os.execv('/usr/bin/python3', ['/usr/bin/python3', 'main.py'] + sys.argv[1:])
