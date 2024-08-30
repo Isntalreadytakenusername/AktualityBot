@@ -10,7 +10,7 @@ from NewsCheckers import NewsChecker
 
 #we need to run the scraper from here and
 # all changing files will be here
-os.chdir('aktuality_scrapers')
+os.chdir('/home/ubuntu/AktualityBot/aktuality_scrapers')
 
 telegram_channel_id = '@fei_tuke_aktuality'
 # telegram_channel_id = '@aktuality_testing'
