@@ -10,6 +10,7 @@ import sys
 
 class CheckNewsProcess:
     def __init__(self, news_checkers_list):
+        self.initial_dir = os.path.abspath(os.getcwd())
         self.news_checkers_list = news_checkers_list
         self.logging_bot = TelegramBot(None, "API_KEY", '@aktuality_testing', False, False, False, False, False)
 
@@ -41,5 +42,7 @@ class CheckNewsProcess:
 
                 # Restart the script by re-executing the current program
                 time.sleep(5)  # Optional: give it a short delay before restarting
+                os.chdir(self.initial_dir)
+
                 python = sys.executable
                 os.execv(python, [python] + sys.argv)
