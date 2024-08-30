@@ -42,7 +42,4 @@ class CheckNewsProcess:
 
                 # Restart the script by re-executing the current program
                 time.sleep(5)  # Optional: give it a short delay before restarting
-                os.chdir(self.initial_dir)
-
-                python = sys.executable
                 os.execv('/usr/bin/python3', ['/usr/bin/python3', '/home/ubuntu/AktualityBot/main.py'] + sys.argv[1:])
