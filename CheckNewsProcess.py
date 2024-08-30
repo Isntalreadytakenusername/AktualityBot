@@ -3,6 +3,10 @@ import pandas as pd
 import time
 from TelegramBot import TelegramBot
 
+import traceback
+import time
+import sys
+
 
 class CheckNewsProcess:
     def __init__(self, news_checkers_list):
@@ -23,8 +27,19 @@ class CheckNewsProcess:
                     news_checker.check_whether_the_post_is_new()
 
                 self.countdown_to_next_check()
-            except:
-                print('Something went wrong, trying again in 5 minutes')
-                self.logging_bot.send_logging_message('Something went wrong, trying again in 5 minutes')
-                time.sleep(300)
-                continue
+
+            except Exception as e:
+                # Capture the full exception traceback
+                error_message = traceback.format_exc()
+
+                # Print the error message
+                print('Something went wrong, restarting the script')
+                print(error_message)
+
+                # Send the full traceback to the logging_bot
+                self.logging_bot.send_logging_message(f'Something went wrong, restarting the script\n{error_message}')
+
+                # Restart the script by re-executing the current program
+                time.sleep(5)  # Optional: give it a short delay before restarting
+                python = sys.executable
+                os.execv(python, [python] + sys.argv)
