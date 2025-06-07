@@ -35,17 +35,35 @@ class TelegramBot:
 
     def prepare_bots_message(self):
         self.news_data_for_bot_df = pd.read_csv(self.last_scraper_output_file)
+        
+        # Clear previous message
+        self.bots_message = ""
+        
+        # Track if we have any meaningful content
+        has_content = False
 
-        if self.is_title:
+        if self.is_title and not pd.isna(self.news_data_for_bot_df['title'][0]):
             self.bots_message += f"<b>{self.news_data_for_bot_df['title'][0]}</b>\n"
-        if self.is_date:
+            has_content = True
+            
+        if self.is_date and not pd.isna(self.news_data_for_bot_df['date'][0]):
             self.bots_message += f"<code>{self.news_data_for_bot_df['date'][0]}</code>\n"
-        if self.is_text:
+            has_content = True
+            
+        if self.is_text and not pd.isna(self.news_data_for_bot_df['text'][0]):
             self.bots_message += f"{self.news_data_for_bot_df['text'][0]}\n"
-        if self.is_link:
+            has_content = True
+            
+        if self.is_link and not pd.isna(self.news_data_for_bot_df['link'][0]):
             self.bots_message += f"\n\n{self.news_data_for_bot_df['link'][0]}\n"
-        if self.is_image:
+            has_content = True
+            
+        if self.is_image and not pd.isna(self.news_data_for_bot_df['image'][0]):
             self.bots_message += f"\n   <a href = '{self.news_data_for_bot_df['image'][0]}'> <i> image </i> </a>"
+            
+        # If no meaningful content was added, use default message
+        if not has_content:
+            self.bots_message = "Empty message. The developer should probably take a look at the logs :)"
 
     def send_bots_message(self):
         self.prepare_bot(self.environment_variable_with_api_key_for_bot)
@@ -61,6 +79,5 @@ class TelegramBot:
         self.prepare_bot(self.environment_variable_with_api_key_for_bot)
         self.bot.send_message(chat_id = self.chat_id, text = message)
 
-        
 
-        
+

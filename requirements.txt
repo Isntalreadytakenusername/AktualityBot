@@ -1,4 +1,8 @@
 pandas==1.4.2
-Scrapy==2.6.1
+numpy==1.21.6
+Scrapy==2.6.3
 selenium==4.2.0
 pyTelegramBotAPI==4.5.1
+pyOpenSSL==22.0.0
+cryptography==36.0.2
+twisted==22.10.0
