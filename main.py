@@ -16,7 +16,7 @@ telegram_channel_id = '@fei_tuke_aktuality'
 # telegram_channel_id = '@aktuality_testing'
 
 # Temporarily removed the ones using tuke.sk
-news_checkers_list = [NewsChecker("fei", "aktuality.csv", "API_KEY", telegram_channel_id, True, True, True, False, True), NewsChecker("mais", "mais.csv", "API_KEY", telegram_channel_id, True, False, True, False, False),
+news_checkers_list = [NewsChecker("mais", "mais.csv", "API_KEY", telegram_channel_id, True, False, True, False, False),
                         NewsChecker('kpi_aktuality', 'kpi_aktuality.csv', 'API_KEY', telegram_channel_id, True, True, True, False, True), NewsChecker('kpi_udalosti', 'kpi_udalosti.csv', 'API_KEY', telegram_channel_id, True, True, True, False, True), NewsChecker('kpi_uspechy_katedry', 'kpi_uspechy_katedry.csv', 'API_KEY', telegram_channel_id, True, True, True, False, True)]
 
 # # The old version with all tuke.sk

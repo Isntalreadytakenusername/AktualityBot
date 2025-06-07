@@ -38,7 +38,7 @@ class CheckNewsProcess:
                 print(error_message)
 
                 # Send the full traceback to the logging_bot
-                self.logging_bot.send_logging_message(f'Something went wrong, restarting the script\n{error_message}')
+                # self.logging_bot.send_logging_message(f'Something went wrong, restarting the script\n{error_message}')
 
                 # Restart the script by re-executing the current program
                 time.sleep(5)  # Optional: give it a short delay before restarting
